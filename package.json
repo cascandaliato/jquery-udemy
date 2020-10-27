@@ -1,0 +1,11 @@
+{
+  "name": "jquery-udemy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/cascandaliato/jquery-udemy.git",
+  "author": "cascandaliato <8927157+cascandaliato@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^2.1.2"
+  }
+}
