@@ -8,9 +8,8 @@ $(function () {
 
     $("#courses").off("click");
     $("#courses").on("click", "li", function (event) {
-      $(this).append(
-        `<li style="background-color: yellow;">${courseName}</li>`
-      );
+      const $li = $(`<li>${courseName}</li>`).css("background-color", "yellow");
+      $(this).append($li);
       event.stopPropagation();
     });
   });
